@@ -48,7 +48,7 @@ def get_smallest(number_list):
             11
     """
     
-    smallest_number = 0
+    smallest_number = 987654321
     for i in number_list:
         smallest_number = i if i < smallest_number else smallest_number
     return smallest_number
